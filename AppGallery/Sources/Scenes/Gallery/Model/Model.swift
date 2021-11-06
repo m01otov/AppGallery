@@ -15,16 +15,18 @@ struct Model {
 
         // MARK: - My albums section
 
-        models.append(Section(header: Header.headerAndButton(model:
-                       HeaderAndButton(title: SectionTitle.myAlbums, titleButton: SectionTitle.buttonTitle) ), cell: [
-       .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.recent, icon: MyAlbumsCellIconImage.recent, countTitle: MyAlbumsCellSubTitle.recent)),
-        .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.favorites, icon: MyAlbumsCellIconImage.favorites, countTitle: MyAlbumsCellSubTitle.favorites)),
-       .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.instagram, icon: MyAlbumsCellIconImage.instagram, countTitle: MyAlbumsCellSubTitle.instagram)),
-        .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.whatsApp, icon: MyAlbumsCellIconImage.whatsApp, countTitle: MyAlbumsCellSubTitle.whatsApp)),
-       .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.whatsApp, icon: MyAlbumsCellIconImage.whatsApp, countTitle: MyAlbumsCellSubTitle.whatsApp)),
+    models.append(Section(header: Header.headerAndButton(model:
+                   HeaderAndButton(title: SectionTitle.myAlbums, titleButton: SectionTitle.buttonTitle) ), cell: [
 
-
-
-
-                       ]))
+    .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.recent, icon: MyAlbumsCellIconImage.recent, countTitle: MyAlbumsCellSubTitle.recent)),
+    .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.favorites, icon: MyAlbumsCellIconImage.favorites, countTitle: MyAlbumsCellSubTitle.favorites)),
+    .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.instagram, icon: MyAlbumsCellIconImage.instagram, countTitle: MyAlbumsCellSubTitle.instagram)),
+    .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.whatsApp, icon: MyAlbumsCellIconImage.whatsApp, countTitle: MyAlbumsCellSubTitle.whatsApp)),
+    .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.whatsApp, icon: MyAlbumsCellIconImage.whatsApp, countTitle: MyAlbumsCellSubTitle.whatsApp)),
+    .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.pinterest, icon: MyAlbumsCellIconImage.pinterest, countTitle: MyAlbumsCellSubTitle.pinterest)),
+    .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.telegram, icon: MyAlbumsCellIconImage.telegram, countTitle: MyAlbumsCellSubTitle.telegram)),
+    .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.twitter, icon: MyAlbumsCellIconImage.twitter, countTitle: MyAlbumsCellSubTitle.twitter)),
+    .imageCell(model: CardTypeCell(header: MyAlbumsCellTitle.work, icon: MyAlbumsCellIconImage.work, countTitle: MyAlbumsCellSubTitle.work))
+    ]))}
 }
+
