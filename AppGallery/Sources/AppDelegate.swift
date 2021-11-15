@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         tabBarController.tabBar.isTranslucent = false
         tabBarController.tabBar.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.9)
+
         let mediaLibraryViewController = MediaViewController()
 
         mediaLibraryViewController.tabBarItem = UITabBarItem(title: TabBarTitle.mediaLibrary, image: IconImageForTabBar.mediaLibrary, tag: 0)
