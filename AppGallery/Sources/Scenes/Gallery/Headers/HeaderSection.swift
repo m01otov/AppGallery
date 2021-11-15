@@ -5,4 +5,10 @@
 //  Created by Ilya Melnikov on 06.11.2021.
 //
 
-import Foundation
+import UIKit
+
+ class HeaderSection: UICollectionReusableView {
+
+     static let identifier = "HeaderSection"
+
+ }
