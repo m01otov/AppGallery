@@ -45,6 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             searchViewController
         ], animated: false)
 
+        window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
 
