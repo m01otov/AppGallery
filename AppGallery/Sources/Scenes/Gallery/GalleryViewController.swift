@@ -11,8 +11,18 @@ class GalleryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        setupView()
+        createButtonInNavBar()
+    }
 
-        view.backgroundColor = .red
+    private func setupView() {
+        view.backgroundColor = .white
+        title = TabBarTitle.gallery
+    }
+
+    private func createButtonInNavBar() {
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: nil)
     }
 
 
